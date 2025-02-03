@@ -23,6 +23,19 @@ function generatePalette(hexColor){
     return hsl_tab;
 };
 
+function convertHextoHsl(hexColor){
+    // Conversion hex -> hsl
+    const hslColor =convert.hex.hsl(hexColor);
+    return hslColor;
+}
+
+function convertHsltoCSSHsl(hslColor){
+    const cssHsl = `${hslColor[0]}deg ${hslColor[1]}% ${hslColor[2]}%`;
+    return cssHsl;
+};
+
 
 //console.log(generatePalette("#F15025"));
+//exporter la fonction generatePalette
+export { generatePalette,convertHextoHsl,convertHsltoCSSHsl };
 
