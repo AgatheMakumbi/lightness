@@ -1,0 +1,24 @@
+{
+  "name": "lightness",
+  "version": "1.0.0",
+  "description": "Application qui donne une les differiente variante de lumiere de la couleur hexa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"vite",
+    "build":"vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AgatheMakumbi/lightness.git"
+  },
+  "author": "agathe",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AgatheMakumbi/lightness/issues"
+  },
+  "homepage": "https://github.com/AgatheMakumbi/lightness#readme",
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}
